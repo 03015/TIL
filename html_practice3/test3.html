@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1>숙소 예약</h1>
+  </div>
+  <div>
+    <h2>신상 정보</h2>
+  </div>
+  <div>
+      <form>
+        <label>이름 :</label>
+        <input type="text" placeholder="이름 입력">
+      </form>
+  </div>
+  <div>
+      <form>
+        <label>이메일 :</label>
+        <input type="text" placeholder="이메일 입력">
+      </form>
+  </div>
+  <div>
+      <!-- <form> -->
+        <label>예약자 사진 :</label>
+        <input type="file">
+      <!-- </form> -->      
+  </div>
+<hr>
+  <div>
+    <h2>상세 정보</h2>
+  </div>
+  <div>
+    <h3>선호 객실 타입</h3>
+  </div>
+  <div>
+    <label>도시뷰 :</label>
+    <input type="checkbox" name="전달할 값의 이름" value="전달값">
+    <label>레이크뷰 :</label>
+    <input type="checkbox" name="전달할 값의 이름" value="전달값">
+    <label>마운틴뷰 :</label>
+    <input type="checkbox" name="전달할 값의 이름" value="전달값">
+  </div>
+  <div>
+    <h3>동행자 정보</h3>
+    <label>숫자 :</label>
+    <input type="number" max="100" min="1">
+  </div>
+  <div>
+    <h3>기타</h3>
+    <label for="my_textarea">요청 사항 :</label>
+    <textarea name="요청 사항" id="my_textarea" cols="30" rows="10"></textarea>
+  </div>
+  <hr>
+  <div>
+    <button>전송</button>
+  </div>
+</body>
+</html>
