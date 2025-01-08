@@ -1,0 +1,18 @@
+body{
+  font-family: "Dancing Script", serif;
+  height: 50vh;
+
+}
+
+p {
+  font-size: 16px;
+  font-weight: bokd;
+  line-height: 50ox;
+  letter-spacing: 5px;
+  color: #333;
+}
+
+
+span {
+  background-color: aquamarine;
+}
