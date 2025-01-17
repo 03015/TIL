@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1 -->
+    <h2>수동 카운터</h2>
+    <p class="p1">0</p>
+    <button class="btn">하나씩 카운트!</button>
+
+
+    <script>
+			const btn = document.querySelector(".btn")
+      const p1 = document.querySelector('.p1')
+      let i = 0
+
+      btn.addEventListener('click', function (event) {
+        let cnt = parseInt(p1.innerText)
+        cnt++
+        p1.innerText = cnt
+        //console.log(p1.innerText)
+      }) 
+
+    </script>
+  </body>
+</html>
+
